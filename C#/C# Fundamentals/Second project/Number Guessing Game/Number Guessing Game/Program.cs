@@ -6,40 +6,37 @@ namespace Number_Guessing_Game
     {
         static void Main(string[] args)
         {
-            Random random = new Random();
-            int secretNumber = random.Next(1, 101); // generates number between 1 and 100
-
+            Random Random01 = new Random();
+            int SecretNumber = Random01.Next(1, 100); // generates number between 1 & 100
             int guess;
-
-            Console.WriteLine("Guess a number between 1 and 100:");
-
+            Console.WriteLine("Guess the  number between 1 & 100 : ");
             while (true)
             {
                 while (!int.TryParse(Console.ReadLine(), out guess))
                 {
-                    Console.WriteLine("Invalid input. Please enter a number:");
-                }
+                    Console.WriteLine("Invalid input , Enter Valid number : ");
 
+                }
                 if (guess < 1 || guess > 100)
                 {
-                    Console.WriteLine("Please enter a number between 1 and 100.");
-                    continue;
+                    Console.WriteLine("Invalid Input , Enter number between 1 & 100 :");
+                    continue; // if this condition is true -> other code lines will be ignored 
+                              // it will return to the "int.Tryparse" loop  
                 }
-
-                if (guess < secretNumber)
+                else if (guess < SecretNumber)
                 {
-                    Console.WriteLine("Too low. Try again:");
-                    Console.WriteLine("");
+                    Console.WriteLine("Your guess is less than the number ");
+                    Console.WriteLine("Try again :");
                 }
-                else if (guess > secretNumber)
+                else if (guess > SecretNumber)
                 {
-                    Console.WriteLine("Too high. Try again:");
-                    Console.WriteLine("");
+                    Console.WriteLine("Your guess is more than the number ");
+                    Console.WriteLine("Try again :");
                 }
                 else
                 {
-                    Console.WriteLine("Correct! You guessed the number.");
-                    break;
+                    Console.WriteLine($"Your guess is correct , the number is {SecretNumber}");
+                    break; // exit the loop 
                 }
             }
         }
