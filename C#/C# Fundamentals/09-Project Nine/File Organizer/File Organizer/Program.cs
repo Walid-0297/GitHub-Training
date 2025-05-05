@@ -10,12 +10,14 @@ namespace FileOrganizer
             Console.WriteLine("Enter the full path of the folder to organize:");
             string folderPath = Console.ReadLine();
 
-            if (!Directory.Exists(folderPath))
-            {
-                Console.WriteLine("Directory does not exist.");
-                return;
-            }
-
+                while (!Directory.Exists(folderPath))
+                {
+                    Console.WriteLine("Directory does not exist.");
+                    Console.WriteLine("Enter a valid path.");
+                    folderPath = Console.ReadLine();
+                    
+                }
+             
             string[] files = Directory.GetFiles(folderPath);
 
             foreach (string file in files)
