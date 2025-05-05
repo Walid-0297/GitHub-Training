@@ -1,0 +1,14 @@
+C:\Users\USER\CSharpFundamentals\OOP Tasks\Properties & Encapsulation\bin\Debug\net8.0\Properties & Encapsulation.exe
+C:\Users\USER\CSharpFundamentals\OOP Tasks\Properties & Encapsulation\bin\Debug\net8.0\Properties & Encapsulation.deps.json
+C:\Users\USER\CSharpFundamentals\OOP Tasks\Properties & Encapsulation\bin\Debug\net8.0\Properties & Encapsulation.runtimeconfig.json
+C:\Users\USER\CSharpFundamentals\OOP Tasks\Properties & Encapsulation\bin\Debug\net8.0\Properties & Encapsulation.dll
+C:\Users\USER\CSharpFundamentals\OOP Tasks\Properties & Encapsulation\bin\Debug\net8.0\Properties & Encapsulation.pdb
+C:\Users\USER\CSharpFundamentals\OOP Tasks\Properties & Encapsulation\obj\Debug\net8.0\Properties & Encapsulation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\CSharpFundamentals\OOP Tasks\Properties & Encapsulation\obj\Debug\net8.0\Properties & Encapsulation.AssemblyInfoInputs.cache
+C:\Users\USER\CSharpFundamentals\OOP Tasks\Properties & Encapsulation\obj\Debug\net8.0\Properties & Encapsulation.AssemblyInfo.cs
+C:\Users\USER\CSharpFundamentals\OOP Tasks\Properties & Encapsulation\obj\Debug\net8.0\Properties & Encapsulation.csproj.CoreCompileInputs.cache
+C:\Users\USER\CSharpFundamentals\OOP Tasks\Properties & Encapsulation\obj\Debug\net8.0\Properties & Encapsulation.dll
+C:\Users\USER\CSharpFundamentals\OOP Tasks\Properties & Encapsulation\obj\Debug\net8.0\refint\Properties & Encapsulation.dll
+C:\Users\USER\CSharpFundamentals\OOP Tasks\Properties & Encapsulation\obj\Debug\net8.0\Properties & Encapsulation.pdb
+C:\Users\USER\CSharpFundamentals\OOP Tasks\Properties & Encapsulation\obj\Debug\net8.0\Properties & Encapsulation.genruntimeconfig.cache
+C:\Users\USER\CSharpFundamentals\OOP Tasks\Properties & Encapsulation\obj\Debug\net8.0\ref\Properties & Encapsulation.dll
