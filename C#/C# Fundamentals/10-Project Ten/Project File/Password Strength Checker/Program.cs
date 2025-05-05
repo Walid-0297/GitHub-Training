@@ -9,6 +9,13 @@ namespace PasswordStrengthChecker
         {
             Console.Write("Enter your password: ");
             string password = Console.ReadLine();
+           
+            while (string.IsNullOrWhiteSpace(password)) 
+            {
+                Console.Write("the passwoed can't be empty or just spaces : ");
+                Console.Write("Enter valid password: ");
+                password = Console.ReadLine();
+            }
 
             string strength = GetPasswordStrength(password);
             Console.WriteLine($"Password strength: {strength}");
