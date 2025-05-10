@@ -1,4 +1,4 @@
-# Constructors 🧱
+# Constructors 
 
 This mini project demonstrates the use of **constructors** in C#, including:
 
@@ -8,7 +8,7 @@ This mini project demonstrates the use of **constructors** in C#, including:
 
 ---
 
-## 💡 Concepts Covered
+##  Concepts Covered
 
 - Constructor overloading
 - Input validation
@@ -17,7 +17,7 @@ This mini project demonstrates the use of **constructors** in C#, including:
 
 ---
 
-## 📌 Project Summary
+##  Project Summary
 
 The user is asked to input a name and age. Based on what is entered:
 - If both are valid → uses full constructor.
@@ -27,7 +27,7 @@ The user is asked to input a name and age. Based on what is entered:
 
 ---
 
-## 🔁 Sample Inputs
+##  Sample Inputs
 
 ```bash
 Enter your name (or press Enter to use default): 

@@ -1,10 +1,10 @@
-# 📌 Properties & Encapsulation
+#  Properties & Encapsulation
 
 This is a simple C# console project demonstrating the concepts of **Properties** and **Encapsulation**, two fundamental pillars of Object-Oriented Programming (OOP).
 
 ---
 
-## ✅ Topics Covered
+##  Topics Covered
 
 - `private` fields and encapsulation  
 - `public` properties with `get` and `set` accessors  
@@ -13,7 +13,7 @@ This is a simple C# console project demonstrating the concepts of **Properties**
 
 ---
 
-## 💡 Project Description
+##  Project Description
 
 The application asks the user to:
 
@@ -24,7 +24,7 @@ After validation, the app displays the name and age using properties to access t
 
 ---
 
-## 🧠 Key Learnings
+##  Key Learnings
 
 - **Encapsulation** hides the internal state of the `Person` class using private fields (`_name`, `_age`) and only allows access through properties.
 - **Properties** provide controlled access to the data:
