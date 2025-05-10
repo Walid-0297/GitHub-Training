@@ -6,7 +6,7 @@ It is a continuation of the C# Fundamentals phase, focusing on real-world modeli
 
 ---
 
-## ✅ Project List
+##  Project List
 
 ### 🔹 Individual Concept Mini Tasks
 
@@ -50,18 +50,18 @@ These small tasks help reinforce isolated OOP topics in practice:
 
 These are larger practical projects combining multiple OOP principles.
 
-#### 1. 📚 Library Management System
+#### 1.  Library Management System
 - Manage book borrowing and returning using classes, lists, and object tracking.
 
-#### 2. 🧩 Maze Game
+#### 2.  Maze Game
 - A simple text-based maze game built with classes, inheritance, and decision logic.
 
-#### 3. 📊 Text Data Analyzer
+#### 3.  Text Data Analyzer
 - Analyze lines, words, and characters from text files using OOP design.
 
 ---
 
-## 💡 Goal
+##  Goal
 
 These projects provide a hands-on way to master C# OOP. They are ideal for solidifying knowledge before diving into full .NET applications, freelancing, or job opportunities.
 
