@@ -1,5 +1,5 @@
 
-# C# OOP Projects 🔷
+# C# OOP Projects 
 
 This repository contains C# projects designed to apply and reinforce **Object-Oriented Programming (OOP)** concepts.  
 It is a continuation of the C# Fundamentals phase, focusing on real-world modeling using classes, objects, inheritance, encapsulation, interfaces, and more.
@@ -8,7 +8,7 @@ It is a continuation of the C# Fundamentals phase, focusing on real-world modeli
 
 ##  Project List
 
-### 🔹 Individual Concept Mini Tasks
+###  Individual Concept Mini Tasks
 
 These small tasks help reinforce isolated OOP topics in practice:
 
@@ -30,7 +30,7 @@ These small tasks help reinforce isolated OOP topics in practice:
 
 ---
 
-### 🔹 Basic OOP Concept-Based Projects
+###  Basic OOP Concept-Based Projects
 
 #### 1. Student Management System
 - **Concepts Covered**: Classes, Properties, Constructors, Lists.
@@ -46,7 +46,7 @@ These small tasks help reinforce isolated OOP topics in practice:
 
 ---
 
-### 🔹 Full Practice Projects (From Video Series)
+###  Full Practice Projects (From Video Series)
 
 These are larger practical projects combining multiple OOP principles.
 
