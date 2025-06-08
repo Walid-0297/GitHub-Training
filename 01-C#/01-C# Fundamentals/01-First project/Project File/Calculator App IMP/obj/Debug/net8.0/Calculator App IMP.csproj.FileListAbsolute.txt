@@ -1,0 +1,29 @@
+C:\Users\USER\CSharpFundamentals\OOP Tasks\Calculator App IMP\bin\Debug\net8.0\Calculator App IMP.exe
+C:\Users\USER\CSharpFundamentals\OOP Tasks\Calculator App IMP\bin\Debug\net8.0\Calculator App IMP.deps.json
+C:\Users\USER\CSharpFundamentals\OOP Tasks\Calculator App IMP\bin\Debug\net8.0\Calculator App IMP.runtimeconfig.json
+C:\Users\USER\CSharpFundamentals\OOP Tasks\Calculator App IMP\bin\Debug\net8.0\Calculator App IMP.dll
+C:\Users\USER\CSharpFundamentals\OOP Tasks\Calculator App IMP\bin\Debug\net8.0\Calculator App IMP.pdb
+C:\Users\USER\CSharpFundamentals\OOP Tasks\Calculator App IMP\obj\Debug\net8.0\Calculator App IMP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\CSharpFundamentals\OOP Tasks\Calculator App IMP\obj\Debug\net8.0\Calculator App IMP.AssemblyInfoInputs.cache
+C:\Users\USER\CSharpFundamentals\OOP Tasks\Calculator App IMP\obj\Debug\net8.0\Calculator App IMP.AssemblyInfo.cs
+C:\Users\USER\CSharpFundamentals\OOP Tasks\Calculator App IMP\obj\Debug\net8.0\Calculator App IMP.csproj.CoreCompileInputs.cache
+C:\Users\USER\CSharpFundamentals\OOP Tasks\Calculator App IMP\obj\Debug\net8.0\Calculator App IMP.sourcelink.json
+C:\Users\USER\CSharpFundamentals\OOP Tasks\Calculator App IMP\obj\Debug\net8.0\Calculator App IMP.dll
+C:\Users\USER\CSharpFundamentals\OOP Tasks\Calculator App IMP\obj\Debug\net8.0\refint\Calculator App IMP.dll
+C:\Users\USER\CSharpFundamentals\OOP Tasks\Calculator App IMP\obj\Debug\net8.0\Calculator App IMP.pdb
+C:\Users\USER\CSharpFundamentals\OOP Tasks\Calculator App IMP\obj\Debug\net8.0\Calculator App IMP.genruntimeconfig.cache
+C:\Users\USER\CSharpFundamentals\OOP Tasks\Calculator App IMP\obj\Debug\net8.0\ref\Calculator App IMP.dll
+C:\GitHub Training\C#\C# Fundamentals\Calculator\Calculator App IMP\bin\Debug\net8.0\Calculator App IMP.exe
+C:\GitHub Training\C#\C# Fundamentals\Calculator\Calculator App IMP\bin\Debug\net8.0\Calculator App IMP.deps.json
+C:\GitHub Training\C#\C# Fundamentals\Calculator\Calculator App IMP\bin\Debug\net8.0\Calculator App IMP.runtimeconfig.json
+C:\GitHub Training\C#\C# Fundamentals\Calculator\Calculator App IMP\bin\Debug\net8.0\Calculator App IMP.dll
+C:\GitHub Training\C#\C# Fundamentals\Calculator\Calculator App IMP\bin\Debug\net8.0\Calculator App IMP.pdb
+C:\GitHub Training\C#\C# Fundamentals\Calculator\Calculator App IMP\obj\Debug\net8.0\Calculator App IMP.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub Training\C#\C# Fundamentals\Calculator\Calculator App IMP\obj\Debug\net8.0\Calculator App IMP.AssemblyInfoInputs.cache
+C:\GitHub Training\C#\C# Fundamentals\Calculator\Calculator App IMP\obj\Debug\net8.0\Calculator App IMP.AssemblyInfo.cs
+C:\GitHub Training\C#\C# Fundamentals\Calculator\Calculator App IMP\obj\Debug\net8.0\Calculator App IMP.csproj.CoreCompileInputs.cache
+C:\GitHub Training\C#\C# Fundamentals\Calculator\Calculator App IMP\obj\Debug\net8.0\Calculator App IMP.dll
+C:\GitHub Training\C#\C# Fundamentals\Calculator\Calculator App IMP\obj\Debug\net8.0\refint\Calculator App IMP.dll
+C:\GitHub Training\C#\C# Fundamentals\Calculator\Calculator App IMP\obj\Debug\net8.0\Calculator App IMP.pdb
+C:\GitHub Training\C#\C# Fundamentals\Calculator\Calculator App IMP\obj\Debug\net8.0\Calculator App IMP.genruntimeconfig.cache
+C:\GitHub Training\C#\C# Fundamentals\Calculator\Calculator App IMP\obj\Debug\net8.0\ref\Calculator App IMP.dll
