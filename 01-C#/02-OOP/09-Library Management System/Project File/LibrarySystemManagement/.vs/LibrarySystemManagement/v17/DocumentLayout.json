@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USER\\CSharpFundamentals\\LibrarySystemManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{936052B2-CBDC-4EDC-B0B2-BAA33CADF813}|LibrarySystemManagement.csproj|c:\\users\\user\\csharpfundamentals\\librarysystemmanagement\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{936052B2-CBDC-4EDC-B0B2-BAA33CADF813}|LibrarySystemManagement.csproj|solutionrelative:books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{936052B2-CBDC-4EDC-B0B2-BAA33CADF813}|LibrarySystemManagement.csproj|c:\\users\\user\\csharpfundamentals\\librarysystemmanagement\\liberian.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{936052B2-CBDC-4EDC-B0B2-BAA33CADF813}|LibrarySystemManagement.csproj|solutionrelative:liberian.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{936052B2-CBDC-4EDC-B0B2-BAA33CADF813}|LibrarySystemManagement.csproj|c:\\users\\user\\csharpfundamentals\\librarysystemmanagement\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{936052B2-CBDC-4EDC-B0B2-BAA33CADF813}|LibrarySystemManagement.csproj|solutionrelative:library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{936052B2-CBDC-4EDC-B0B2-BAA33CADF813}|LibrarySystemManagement.csproj|c:\\users\\user\\csharpfundamentals\\librarysystemmanagement\\librarycard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{936052B2-CBDC-4EDC-B0B2-BAA33CADF813}|LibrarySystemManagement.csproj|solutionrelative:librarycard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{936052B2-CBDC-4EDC-B0B2-BAA33CADF813}|LibrarySystemManagement.csproj|c:\\users\\user\\csharpfundamentals\\librarysystemmanagement\\libraryuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{936052B2-CBDC-4EDC-B0B2-BAA33CADF813}|LibrarySystemManagement.csproj|solutionrelative:libraryuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{936052B2-CBDC-4EDC-B0B2-BAA33CADF813}|LibrarySystemManagement.csproj|c:\\users\\user\\csharpfundamentals\\librarysystemmanagement\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{936052B2-CBDC-4EDC-B0B2-BAA33CADF813}|LibrarySystemManagement.csproj|solutionrelative:user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{936052B2-CBDC-4EDC-B0B2-BAA33CADF813}|LibrarySystemManagement.csproj|c:\\users\\user\\csharpfundamentals\\librarysystemmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{936052B2-CBDC-4EDC-B0B2-BAA33CADF813}|LibrarySystemManagement.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\CSharpFundamentals\\LibrarySystemManagement\\User.cs",
+              "RelativeDocumentMoniker": "User.cs",
+              "ToolTip": "C:\\Users\\USER\\CSharpFundamentals\\LibrarySystemManagement\\User.cs",
+              "RelativeToolTip": "User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T05:22:21.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LibraryCard.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\CSharpFundamentals\\LibrarySystemManagement\\LibraryCard.cs",
+              "RelativeDocumentMoniker": "LibraryCard.cs",
+              "ToolTip": "C:\\Users\\USER\\CSharpFundamentals\\LibrarySystemManagement\\LibraryCard.cs",
+              "RelativeToolTip": "LibraryCard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T05:21:06.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Liberian.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\CSharpFundamentals\\LibrarySystemManagement\\Liberian.cs",
+              "RelativeDocumentMoniker": "Liberian.cs",
+              "ToolTip": "C:\\Users\\USER\\CSharpFundamentals\\LibrarySystemManagement\\Liberian.cs",
+              "RelativeToolTip": "Liberian.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T05:20:24.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LibraryUser.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\CSharpFundamentals\\LibrarySystemManagement\\LibraryUser.cs",
+              "RelativeDocumentMoniker": "LibraryUser.cs",
+              "ToolTip": "C:\\Users\\USER\\CSharpFundamentals\\LibrarySystemManagement\\LibraryUser.cs",
+              "RelativeToolTip": "LibraryUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T05:19:39.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Books.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\CSharpFundamentals\\LibrarySystemManagement\\Books.cs",
+              "RelativeDocumentMoniker": "Books.cs",
+              "ToolTip": "C:\\Users\\USER\\CSharpFundamentals\\LibrarySystemManagement\\Books.cs",
+              "RelativeToolTip": "Books.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T05:18:57.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Library.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\CSharpFundamentals\\LibrarySystemManagement\\Library.cs",
+              "RelativeDocumentMoniker": "Library.cs",
+              "ToolTip": "C:\\Users\\USER\\CSharpFundamentals\\LibrarySystemManagement\\Library.cs",
+              "RelativeToolTip": "Library.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T05:17:27.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\CSharpFundamentals\\LibrarySystemManagement\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\USER\\CSharpFundamentals\\LibrarySystemManagement\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAQwIwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T05:15:36.128Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
