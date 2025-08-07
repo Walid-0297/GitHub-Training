@@ -56,7 +56,7 @@ hospital_management
 
 ---
 
-## 🖼️ GUI (Coming Soon)
+## 🖼️ GUI 
 
 We are currently working on adding a user-friendly **Graphical User Interface** using `tkinter` or `PyQt` to enhance the user experience.
 
