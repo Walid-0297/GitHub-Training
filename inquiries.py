@@ -1,47 +1,47 @@
-# InquiryManager handles all the "inquiry-related" logic.
-# It interacts with both the doctors and patients data
-# and allows the user to search or view records.
+# inquiry_manager.py
+
+# InquiryManager handles:
+# - Viewing available specializations
+# - Viewing doctors by specialization (case-insensitive)
+# - Viewing waiting list of patients
 
 class InquiryManager:
     def __init__(self, storage):
-        # Store a reference to the storage instance so we can access saved files if needed.
-        # This is Dependency Injection: we pass dependencies instead of creating them inside the class.
+        # Takes a Storage instance to interact with saved data
         self.storage = storage
 
-    @staticmethod
-    def inquire_doctor(doctors, specialization):
-        """
-        Finds available doctors for a given specialization (case-insensitive).
-        If one or more doctors are found, they are displayed and returned.
-        If no doctor is available, returns an empty list.
-        """
-        # Convert specialization to lowercase for case-insensitive comparison
-        specialization = specialization.lower()
+    def view_available_specializations(self):
+        # Get unique specializations from all doctors
+        doctors = self.storage.load_doctors()
+        specializations = sorted(set(doc.specialization.title() for doc in doctors))
 
-        # Use list comprehension to filter doctors by specialization
-        matched_doctors = [doc for doc in doctors if doc.specialization.lower() == specialization]
-
-        if matched_doctors:
-            print("\nAvailable doctors in this specialization:")
-            for doctor in matched_doctors:
-                print(f"ID: {doctor.id}, Name: Dr. {doctor.name}")
+        if not specializations:
+            print("No specializations found.")
         else:
-            print("\nNo doctor available for this specialization at the moment.")
+            print("Available Specializations:")
+            for spec in specializations:
+                print("-", spec)
 
-        return matched_doctors
+    def view_doctors_by_specialization(self, specialization):
+        # Display all doctors matching the given specialization (case-insensitive)
+        doctors = self.storage.load_doctors()
+        matched_doctors = [doc for doc in doctors if doc.specialization.lower() == specialization.lower()]
 
-    @staticmethod
-    def inquire_patient(patients):
-        """
-        Displays a list of all patients (treated).
-        Data must be passed in from storage.load_patients() or a similar source.
-        """
-        if not patients:
-            print("No patients found.")
-            return
+        if not matched_doctors:
+            print(f"No doctors found for specialization: {specialization}")
+        else:
+            print(f"Doctors specialized in {specialization.title()}:")
+            for doc in matched_doctors:
+                print("-", doc.name)
 
-        print("\nList of treated patients:")
-        for patient in patients:
-            # Each patient is expected to be a dictionary (name, age, id, disease, room_id)
-            print(f"Name: {patient['name']}, Age: {patient['age']}, ID: {patient['id']}, "
-                  f"Disease: {patient['disease']}, Room ID: {patient['room_id']}")
+    def view_waiting_list(self):
+        # Display patients waiting for unavailable doctors
+        waiting_patients = self.storage.load_waiting_list()
+
+        if not waiting_patients:
+            print("No patients in the waiting list.")
+        else:
+            print("Patients in Waiting List:")
+            for patient in waiting_patients:
+                print(f"- {patient.name} | Age: {patient.age} | Problem: {patient.problem}")
+

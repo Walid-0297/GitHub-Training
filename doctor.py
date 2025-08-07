@@ -1,42 +1,37 @@
-# Define the Doctor class – represents a doctor in the hospital system
+# doctor.py
+
+from patient import Patient
+
 class Doctor:
+    """
+    Represents a doctor with a name and specialization.
+    Can treat a Patient and display treatment information.
+    """
 
-    # Constructor method – initializes the doctor object with name and specialization
-    def __init__(self, name, specialization):
+    def __init__(self, name: str, specialization: str):
         """
-        This is the constructor (like in Java).
-        It sets up the Doctor object with basic information.
+        Initializes a new doctor.
 
-        Parameters:
-        - name: The name of the doctor (string)
-        - specialization: The field the doctor specializes in (string)
+        :param name: Doctor's name
+        :param specialization: Doctor's medical specialization
         """
-        self.name = name  # Stores the doctor's name
-        self.specialization = specialization  # Stores the doctor's medical specialty
+        self._name = name
+        self._specialization = specialization
 
-    # Method to simulate treating a patient
-    def treat_patient(self, patient):
+    @property
+    def name(self) -> str:
+        return self._name
+
+    @property
+    def specialization(self) -> str:
+        return self._specialization
+
+    def treat_patient(self, patient: Patient):
         """
-        Simulates treating a patient by printing out a detailed treatment message.
+        Prints treatment info of a patient by this doctor.
 
-        Parameters:
-        - patient: A Patient object that the doctor will treat
+        :param patient: The Patient object to be treated
         """
-
-        # This print simulates the interaction between doctor and patient.
-        # It's useful during testing or logging system behavior.
-        print(f"{self.name} will treat patient ID {patient.get_id()} ({patient.get_name()}), "
-              f"age {patient.get_age()}, for {patient.get_disease()} in room {patient.get_room_id()}.")
-
-        # Note:
-        # This uses getter methods from the Patient class to access the patient's data safely,
-        # which is a form of encapsulation — keeping attributes private and exposing them via methods.
-
-    # Getter method to retrieve doctor's specialization
-    def get_specialization(self):
-        return self.specialization
-
-    # Getter method to retrieve doctor's name
-    def get_name(self):
-        return self.name
-
+        print(f"{self._name} will treat patient ID {patient.id} "
+              f"({patient.name}), age {patient.age}, for {patient.disease} "
+              f"in room {patient.room_id}.")

@@ -1,44 +1,44 @@
-# Define the Patient class – represents a hospital patient
+# patient.py
+
 class Patient:
+    """
+    Represents a patient in the hospital system.
+    Stores personal and medical information like name, age, ID, disease, and room ID.
+    """
 
-    # Constructor method – runs automatically when creating a new Patient object
-    def __init__(self, name, age, id, disease, room_id):
-        # self refers to the instance of the object being created.
-        # In Arabic: الكائن نفسه اللي بنتعامل معاه داخل الكلاس
-
+    def __init__(self, name: str, age: int, id: int, disease: str, room_id: int):
         """
-        Initializes a new Patient object with the provided information.
+        Initializes a new patient object with the provided attributes.
 
-        Parameters:
-        - name: The name of the patient (string)
-        - age: The age of the patient (integer)
-        - id: A unique identifier for the patient (integer)
-        - disease: The illness the patient is suffering from (string)
-        - room_id: The room number assigned to the patient (integer)
+        :param name: Patient's full name
+        :param age: Patient's age
+        :param id: Unique identifier for the patient
+        :param disease: Name of the diagnosed disease
+        :param room_id: Assigned room number in the hospital
         """
+        self._name = name
+        self._age = age
+        self._id = id
+        self._disease = disease
+        self._room_id = room_id
 
-        self.name = name        # Stores the patient's name
-        self.age = age          # Stores the patient's age
-        self.id = id            # Stores the patient's unique ID
-        self.disease = disease  # Stores the name of the disease
-        self.room_id = room_id  # Stores the assigned hospital room number
+    # Getters (Pythonic way: properties)
+    @property
+    def name(self) -> str:
+        return self._name
 
-    # Getter method for patient's name
-    def get_name(self):
-        return self.name
+    @property
+    def age(self) -> int:
+        return self._age
 
-    # Getter method for patient's age
-    def get_age(self):
-        return self.age
+    @property
+    def id(self) -> int:
+        return self._id
 
-    # Getter method for patient's ID
-    def get_id(self):
-        return self.id
+    @property
+    def disease(self) -> str:
+        return self._disease
 
-    # Getter method for patient's disease
-    def get_disease(self):
-        return self.disease
-
-    # Getter method for patient's room ID
-    def get_room_id(self):
-        return self.room_id
+    @property
+    def room_id(self) -> int:
+        return self._room_id

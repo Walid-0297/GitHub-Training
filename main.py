@@ -1,11 +1,41 @@
-# ----------------- Import Statements -----------------
-from patient import Patient                    # Import Patient class
-from doctor import Doctor                      # Import Doctor class
-from Storage import Storage                    # Import Storage handler
-from inquiries import InquiryManager           # Import class handling inquiries
+# main.py
 
-# ----------------- Object Creation -----------------
-# Define the list of patients – hardcoded data to simulate hospital records
+from doctor import Doctor
+from patient import Patient
+from pathlib import Path
+
+# File paths
+base_dir = Path(__file__).resolve().parent
+patients_file = base_dir / "patients.txt"
+waiting_file = base_dir / "waiting_list.txt"
+doctors_file = base_dir / "doctors.txt"
+
+# Make sure files exist
+patients_file.touch(exist_ok=True)
+waiting_file.touch(exist_ok=True)
+doctors_file.touch(exist_ok=True)
+
+# Initialize doctors
+doctors = [
+    Doctor("Dr. Mohamed Moustafa", "The Flu"),
+    Doctor("Dr. Walid Mohamed", "Measles"),
+    Doctor("Dr. Walid Hamido", "HIV"),
+    Doctor("Dr. Hassan", "Strep Throat"),
+    Doctor("Dr. Youssef Ahmed", "COVID-19"),
+    Doctor("Dr. Mahmoud Elzeer", "Salmonella"),
+    Doctor("Dr. Hazaem Gad Allah", "Corona Mutant"),
+    Doctor("Dr. Amgad Moustafa", "Cancer"),
+    Doctor("Dr. Amr Fathy", "Heart Disease"),
+    Doctor("Dr. Ahmed Ashraf", "Diabetes")
+]
+
+# Save doctors to file (once only)
+if doctors_file.stat().st_size == 0:
+    with open(doctors_file, "w") as f:
+        for doc in doctors:
+            f.write(f"{doc.name},{doc.specialization}\n")
+
+# Initial patients
 patients = [
     Patient("Ali", 25, 1001, "The Flu", 101),
     Patient("Mona", 30, 1002, "Measles", 102),
@@ -19,72 +49,160 @@ patients = [
     Patient("Sara", 70, 1010, "Diabetes", 110)
 ]
 
-# Define the list of doctors – each associated with a specialization
-doctors = [
-    Doctor("Dr. Mohamed Moustafa", "The Flu"),
-    Doctor("Dr. Mostafa Al-Shetry", "Measles"),
-    Doctor("Dr. Walid Hamido", "HIV"),
-    Doctor("Dr. Hamza", "Strep Throat"),
-    Doctor("Walid Mohammed", "COVID-19"),
-    Doctor("Dr. Mahmoud Elzeer", "Salmonella"),
-    Doctor("Dr. Hazaem Gad Allah", "Corona Mutant"),
-    Doctor("Dr. Amgad Moustafa", "Cancer"),
-    Doctor("Dr. Amr Fathy", "Heart Disease"),
-    Doctor("Dr. Ahmed Ashraf", "Diabetes")
-]
+# Save patients to file (once only)
+if patients_file.stat().st_size == 0:
+    with open(patients_file, "w") as f:
+        for p in patients:
+            f.write(f"{p.name},{p.age},{p.id},{p.disease},{p.room_id}\n")
 
-# Create a Storage object – responsible for saving patient data to file
-storage = Storage()
-
-# Create a waiting list – for patients who couldn’t be matched to a doctor
 waiting_list = []
 
-# Create an InquiryManager object – responsible for handling all menu actions
-inquiry_manager = InquiryManager(storage)
+# ------------------- Menu Logic -------------------
 
-# ----------------- Main Program Loop -----------------
-# The program runs in an infinite loop until the user chooses to exit
-while True:
-    print("\n--- Welcome to the Hospital Management System ---")
-    print("1. Inquire about a patient")
-    print("2. Inquire about a doctor")
-    print("3. Register a new patient")
-    print("4. View available doctor specializations")
-    print("5. View waiting list")
-    print("6. Exit")
+def save_patient_to_file(patient):
+    with open(patients_file, "a") as f:
+        f.write(f"{patient.name},{patient.age},{patient.id},{patient.disease},{patient.room_id}\n")
 
-    # Get user input
-    choice = input("Enter your choice (1-6): ").strip()
+def save_to_waiting_list(patient):
+    with open(waiting_file, "a") as f:
+        f.write(f"{patient.name},{patient.age},{patient.id},{patient.disease}\n")
 
-    # ------------------- Menu Options -------------------
+def view_specializations():
+    specs = {doc.specialization.lower() for doc in doctors}
+    print("Available Specializations:")
+    for s in sorted(specs):
+        print(f"- {s.capitalize()}")
 
-    # Option 1: Search for a patient
-    if choice == "1":
-        inquiry_manager.patient_inquiry(patients, doctors)
+def doctor_inquiry():
+    spec = input("Enter specialization: ").strip().lower()
+    found = False
+    for doc in doctors:
+        if doc.specialization.lower() == spec:
+            print(f"Doctor: {doc.name} | Specialization: {doc.specialization}")
+            found = True
+    if not found:
+        print("No doctor found with that specialization.")
 
-    # Option 2: Search for a doctor by specialization
-    elif choice == "2":
-        inquiry_manager.doctor_inquiry(doctors)
+        def patient_inquiry(patients, doctors):
+            name = input("Enter patient name: ")
+            found = False
 
-    # Option 3: Add a new patient and assign doctor
-    elif choice == "3":
-        inquiry_manager.new_patient(patients, doctors)
+            for patient in patients:
+                if patient.name.lower() == name.strip().lower():
+                    found = True
+                    print("\nPatient Information:")
+                    print(f"Name: {patient.name}")
+                    print(f"Age: {patient.age}")
+                    print(f"ID: {patient.id}")
+                    print(f"Room: {patient.room_id}")
 
-    # Option 4: View all unique doctor specializations
-    elif choice == "4":
-        inquiry_manager.view_available_specializations(doctors)
+                    doctor_found = False
+                    for doctor in doctors:
+                        if doctor.specialization.lower() == patient.disease.lower():
+                            doctor.treat_patient(patient)
+                            doctor_found = True
+                            break
 
-    # Option 5: View patients who are waiting for available doctors
-    elif choice == "5":
-        inquiry_manager.view_waiting_list()
+                    if not doctor_found:
+                        print(f"No doctor available to treat {patient.disease}.")
+                    break
 
-    # Option 6: Exit the program
-    elif choice == "6":
-        print("Exiting the system. Goodbye!")
-        break
+            if not found:
+                print(f"Patient {name} is not in the system.")
 
-    # Invalid input fallback
+
+def patient_inquiry(patients, doctors):
+    name = input("Enter patient name: ")
+    found = False
+
+    for patient in patients:
+        if patient.name.lower() == name.strip().lower():
+            found = True
+            print("\nPatient Information:")
+            print(f"Name: {patient.name}")
+            print(f"Age: {patient.age}")
+            print(f"ID: {patient.id}")
+            print(f"Room: {patient.room_id}")
+
+            doctor_found = False
+            for doctor in doctors:
+                if doctor.specialization.lower() == patient.disease.lower():
+                    doctor.treat_patient(patient)
+                    doctor_found = True
+                    break
+
+            if not doctor_found:
+                print(f"No doctor available to treat {patient.disease}.")
+            break
+
+    if not found:
+        print(f"Patient {name} is not in the system.")
+
+def view_waiting_list():
+    if not waiting_list:
+        print("No patients in the waiting list.")
     else:
-        print("Invalid choice. Please enter a number between 1 and 6.")
+        print("Waiting List:")
+        for p in waiting_list:
+            print(f"{p.name}, Age: {p.age}, Disease: {p.disease}, ID: {p.id}")
 
+def register_patient():
+    name = input("Patient name: ")
+    try:
+        age = int(input("Patient age: "))
+    except ValueError:
+        print("Invalid age.")
+        return
 
+    disease = input("Disease: ")
+    new_id = 1000 + len(patients) + len(waiting_list) + 1
+    room_id = 101 + len(patients)
+
+    new_patient = Patient(name, age, new_id, disease, room_id)
+    found = False
+
+    for doc in doctors:
+        if doc.specialization.lower() == disease.lower():
+            doc.treat_patient(new_patient)
+            found = True
+            break
+
+    if found:
+        patients.append(new_patient)
+        save_patient_to_file(new_patient)
+        print("Patient registered and assigned to doctor.")
+    else:
+        waiting_list.append(new_patient)
+        save_to_waiting_list(new_patient)
+        print("No doctor available for this disease. Patient added to waiting list.")
+
+def main_menu():
+    while True:
+        print("\n--- Hospital Management System ---")
+        print("1. View Available Specializations")
+        print("2. View Doctors by Specialization")
+        print("3. Patient inquiry")
+        print("4. View Waiting List")
+        print("5. Register New Patient")
+        print("6. Exit")
+
+        choice = input("Enter your choice (1-6): ")
+
+        if choice == "1":
+            view_specializations()
+        elif choice == "2":
+            doctor_inquiry()
+        elif choice == "3":
+            patient_inquiry(patients, doctors)
+        elif choice == "4":
+            view_waiting_list()
+        elif choice == "5":
+            register_patient()
+        elif choice == "6":
+            print("Thank you for visiting!")
+            break
+        else:
+            print("Invalid input.")
+
+if __name__ == "__main__":
+    main_menu()
