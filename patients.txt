@@ -1,0 +1,16 @@
+Ali,25,1001,The Flu,101
+Mona,30,1002,Measles,102
+Omar,35,1003,HIV,103
+Laila,40,1004,Strep Throat,104
+Youssef,45,1005,COVID-19,105
+Dina,50,1006,Salmonella,106
+Karim,55,1007,Corona Mutant,107
+Nada,60,1008,Cancer,108
+Amr,65,1009,Heart Disease,109
+Sara,70,1010,Diabetes,110
+Ahmed,20,1011,The flu,111
+Walid 
+ ,20 
+ ,1013 
+ ,The flu 
+ ,112 

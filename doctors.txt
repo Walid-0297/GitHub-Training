@@ -1,0 +1,10 @@
+Dr. Mohamed Moustafa,The Flu
+Dr. Walid Mohamed,Measles
+Dr. Walid Hamido,HIV
+Dr. Hassan,Strep Throat
+Dr. Youssef Ahmed,COVID-19
+Dr. Mahmoud Elzeer,Salmonella
+Dr. Hazaem Gad Allah,Corona Mutant
+Dr. Amgad Moustafa,Cancer
+Dr. Amr Fathy,Heart Disease
+Dr. Ahmed Ashraf,Diabetes
