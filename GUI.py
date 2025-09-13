@@ -59,32 +59,30 @@ class HospitalGUI:
 
     def create_widgets(self):
         # White panel for better structure, but no image inside
-        self.panel = Frame(self.canvas, bg="white", width=400, height=450)
+        self.panel = Frame(self.canvas, bg="white", width=360, height=400)
         self.panel.place(x=15, y=30)
 
         # Button frame inside the white panel
         button_frame = Frame(self.panel, bg="white", bd=0)
-        button_frame.pack(padx=20, pady=20)
+        button_frame.pack(padx=5, pady=5)
 
         button_style = {
-            "width": 22,
-            "height": 2,
+            "width": 27,
+            "height": 3,
             "font": ("Helvetica", 10, "bold"),
             "bg": "#0a2a43",
             "fg": "white",
-            "activebackground": "#144d75",
-            "activeforeground": "white",
             "relief": FLAT,
             "bd": 1
         }
 
         Button(button_frame, text="👨‍⚕️ View Specializations", command=self.view_specializations, **button_style).pack(
-            pady=5)
-        Button(button_frame, text="🔍 Doctor Inquiry", command=self.doctor_inquiry, **button_style).pack(pady=5)
-        Button(button_frame, text="🧑‍🦱 Patient Inquiry", command=self.patient_inquiry, **button_style).pack(pady=5)
-        Button(button_frame, text="📝 Register New Patient", command=self.new_patient, **button_style).pack(pady=5)
-        Button(button_frame, text="🕓 View Waiting List", command=self.view_waiting_list, **button_style).pack(pady=5)
-        Button(button_frame, text="❌ Exit", command=self.root.quit, **button_style).pack(pady=5)
+            pady=2)
+        Button(button_frame, text="🔍 Doctor Inquiry", command=self.doctor_inquiry, **button_style).pack(pady=2)
+        Button(button_frame, text="🧑‍🦱 Patient Inquiry", command=self.patient_inquiry, **button_style).pack(pady=2)
+        Button(button_frame, text="📝 Register New Patient", command=self.new_patient, **button_style).pack(pady=2)
+        Button(button_frame, text="🕓 View Waiting List", command=self.view_waiting_list, **button_style).pack(pady=2)
+        Button(button_frame, text="❌ Exit", command=self.root.quit, **button_style).pack(pady=2)
 
     def view_specializations(self):
         specs = {doc.specialization for doc in self.doctors}

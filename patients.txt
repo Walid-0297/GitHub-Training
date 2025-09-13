@@ -9,3 +9,8 @@ Nada,60,1008,Cancer,108
 Amr,65,1009,Heart Disease,109
 Sara,70,1010,Diabetes,110
 Ahmed,20,1011,The flu,111
+Walid 
+ ,20 
+ ,1013 
+ ,The flu 
+ ,112 

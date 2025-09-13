@@ -19,15 +19,6 @@ This console-based app allows hospitals to manage their patient-doctor workflow 
 
 ---
 
-## 🧠 OOP Principles Used
-
-- **Encapsulation**: Each class (like `Patient`, `Doctor`) handles its own data and methods.
-- **Abstraction**: Treatment logic is handled internally inside the doctor class.
-- **Modularity**: Separated classes into their own files for reusability and clarity.
-- **Separation of Concerns**: Logic is split between `main.py`, `inquiries.py`, and `storage.py`.
-
----
-
 ## 🧱 Code Structure
 
 hospital_management
