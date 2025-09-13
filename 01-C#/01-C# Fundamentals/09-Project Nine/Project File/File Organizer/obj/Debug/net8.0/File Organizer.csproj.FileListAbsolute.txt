@@ -1,0 +1,15 @@
+C:\Users\USER\CSharpFundamentals\File Organizer\bin\Debug\net8.0\File Organizer.exe
+C:\Users\USER\CSharpFundamentals\File Organizer\bin\Debug\net8.0\File Organizer.deps.json
+C:\Users\USER\CSharpFundamentals\File Organizer\bin\Debug\net8.0\File Organizer.runtimeconfig.json
+C:\Users\USER\CSharpFundamentals\File Organizer\bin\Debug\net8.0\File Organizer.dll
+C:\Users\USER\CSharpFundamentals\File Organizer\bin\Debug\net8.0\File Organizer.pdb
+C:\Users\USER\CSharpFundamentals\File Organizer\obj\Debug\net8.0\File Organizer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\CSharpFundamentals\File Organizer\obj\Debug\net8.0\File Organizer.AssemblyInfoInputs.cache
+C:\Users\USER\CSharpFundamentals\File Organizer\obj\Debug\net8.0\File Organizer.AssemblyInfo.cs
+C:\Users\USER\CSharpFundamentals\File Organizer\obj\Debug\net8.0\File Organizer.csproj.CoreCompileInputs.cache
+C:\Users\USER\CSharpFundamentals\File Organizer\obj\Debug\net8.0\File Organizer.sourcelink.json
+C:\Users\USER\CSharpFundamentals\File Organizer\obj\Debug\net8.0\File Organizer.dll
+C:\Users\USER\CSharpFundamentals\File Organizer\obj\Debug\net8.0\refint\File Organizer.dll
+C:\Users\USER\CSharpFundamentals\File Organizer\obj\Debug\net8.0\File Organizer.pdb
+C:\Users\USER\CSharpFundamentals\File Organizer\obj\Debug\net8.0\File Organizer.genruntimeconfig.cache
+C:\Users\USER\CSharpFundamentals\File Organizer\obj\Debug\net8.0\ref\File Organizer.dll

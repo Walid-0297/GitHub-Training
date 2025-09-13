@@ -1,0 +1,15 @@
+C:\Users\USER\CSharpFundamentals\Inheritence\bin\Debug\net8.0\Inheritence.exe
+C:\Users\USER\CSharpFundamentals\Inheritence\bin\Debug\net8.0\Inheritence.deps.json
+C:\Users\USER\CSharpFundamentals\Inheritence\bin\Debug\net8.0\Inheritence.runtimeconfig.json
+C:\Users\USER\CSharpFundamentals\Inheritence\bin\Debug\net8.0\Inheritence.dll
+C:\Users\USER\CSharpFundamentals\Inheritence\bin\Debug\net8.0\Inheritence.pdb
+C:\Users\USER\CSharpFundamentals\Inheritence\obj\Debug\net8.0\Inheritence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\CSharpFundamentals\Inheritence\obj\Debug\net8.0\Inheritence.AssemblyInfoInputs.cache
+C:\Users\USER\CSharpFundamentals\Inheritence\obj\Debug\net8.0\Inheritence.AssemblyInfo.cs
+C:\Users\USER\CSharpFundamentals\Inheritence\obj\Debug\net8.0\Inheritence.csproj.CoreCompileInputs.cache
+C:\Users\USER\CSharpFundamentals\Inheritence\obj\Debug\net8.0\Inheritence.sourcelink.json
+C:\Users\USER\CSharpFundamentals\Inheritence\obj\Debug\net8.0\Inheritence.dll
+C:\Users\USER\CSharpFundamentals\Inheritence\obj\Debug\net8.0\refint\Inheritence.dll
+C:\Users\USER\CSharpFundamentals\Inheritence\obj\Debug\net8.0\Inheritence.pdb
+C:\Users\USER\CSharpFundamentals\Inheritence\obj\Debug\net8.0\Inheritence.genruntimeconfig.cache
+C:\Users\USER\CSharpFundamentals\Inheritence\obj\Debug\net8.0\ref\Inheritence.dll

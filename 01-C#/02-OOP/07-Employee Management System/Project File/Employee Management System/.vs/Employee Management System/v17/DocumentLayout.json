@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\GitHub Training\\01-C#\\02-OOP\\07-Employee Management System\\Project File\\Employee Management System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{00334074-0EE1-4639-B79B-ABDC9E4B34FA}|Employee Management System.csproj|c:\\github training\\01-c#\\02-oop\\07-employee management system\\project file\\employee management system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00334074-0EE1-4639-B79B-ABDC9E4B34FA}|Employee Management System.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\GitHub Training\\01-C#\\02-OOP\\07-Employee Management System\\Project File\\Employee Management System\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\GitHub Training\\01-C#\\02-OOP\\07-Employee Management System\\Project File\\Employee Management System\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T13:16:27.712Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
